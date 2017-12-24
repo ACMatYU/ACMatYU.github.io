@@ -693,7 +693,7 @@ label > input[type="radio"] {
 	color: #777777 !important;
 }
 
- 
+
 /* ===================================================================
  *  06. buttons - (_button-essentials.scss)
  *
@@ -1187,7 +1187,7 @@ input::-moz-focus-inner {
 .bricks-wrapper .entry-header .entry-title {
 	font-size: 2.5rem;
 	line-height: 1.32;
-	margin-bottom: 1.8rem;	
+	margin-bottom: 1.8rem;
 }
 .bricks-wrapper .entry-header .entry-title a,
 .bricks-wrapper .entry-header .entry-title a:visited {
@@ -1219,7 +1219,7 @@ input::-moz-focus-inner {
 }
 
 
-/* featured post slider - (_common-styles.scss) 
+/* featured post slider - (_common-styles.scss)
  * ------------------------------------------------------------------- */
 #featured-post-slider {
 	position: relative;
@@ -1421,8 +1421,8 @@ input::-moz-focus-inner {
 
 }
 
- 
-/*  post formats - masonry view - (_common-styles.scss) 
+
+/*  post formats - masonry view - (_common-styles.scss)
  * ------------------------------------------------------------------- */
 
 /* format quote & format link
@@ -1632,9 +1632,9 @@ header .logo a {
 	}
 
 	header .logo a {
-		width: 54px;
-		height: 54px;
-		background-size: 54px 54px;
+		width: 100px;
+		height: 100px;
+		background-size: 100px 100px;
 	}
 
 }
@@ -2257,6 +2257,11 @@ header .logo a {
 	margin: 3rem 0 3rem -6rem;
 }
 
+#content-wrap .primary-content .calendar {
+	width: 100%;
+    height: 500px;
+}
+
 #content-wrap .primary-content img.pull-right {
 	margin: 0.9rem 0 0 2.4rem;
 	max-width: 100%;
@@ -2327,6 +2332,9 @@ header .logo a {
 	#content-wrap .page-title {
 		font-size: 2.8rem;
 	}
+    #content-wrap .primary-content .calendar {
+        height: 400px;
+    }
 
 }
 
@@ -2864,7 +2872,7 @@ footer ul li {
 }
 
 
-/* comments - (_blog.scss) 
+/* comments - (_blog.scss)
  * ------------------------------------------------------------------- */
 .comments-wrap {
 	background-color: rgba(0, 0, 0, 0.08);
@@ -2995,7 +3003,7 @@ footer ul li {
 
 }
 
- 
+
 /* post format gallery (_blog.scss)
  * ------------------------------------------------------------------- */
 .format-gallery .post-slider {
@@ -3035,7 +3043,7 @@ footer ul li {
 	opacity: 1;
 }
 
- 
+
 /* post format audio (_blog.scss)
  * ------------------------------------------------------------------- */
 .format-audio .audio-wrap {
@@ -3184,7 +3192,7 @@ footer ul li {
  *  15. page styles
  *
  * ------------------------------------------------------------------- */
- 
+
 /* contact page
  * ------------------------------------------------------------------- */
 
@@ -3205,7 +3213,7 @@ footer ul li {
 	display: inline;
 }
 
-#map-wrap #map-container {
+#map-wrap iframe {
 	height: 100%;
 	width: 100%;
 	background: #DBDBDB;
