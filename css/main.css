@@ -2647,7 +2647,6 @@ footer ul li {
 	text-align: center;
 	background: #b5b5b5;
 	color: #555;
-	text-align: center;
 	text-transform: uppercase;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -2747,6 +2746,7 @@ footer ul li {
 
 .blog-single .author-profile {
 	margin-top: 9rem;
+	margin-bottom: 9rem;
 	padding-left: 9rem;
 	position: relative;
 }
