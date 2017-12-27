@@ -1278,7 +1278,7 @@ input::-moz-focus-inner {
 .featured-post-slide .entry-meta {
 	font-family: "muli-regular", sans-serif;
 	margin: -3rem 0 0.9rem 0;
-	color: rgba(255, 255, 255, 0.6);
+	color: rgba(255, 255, 255, 0.8);
 	line-height: 1.412;
 }
 
